@@ -1,0 +1,30 @@
+name: todoapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  sqflite: ^2.0.0+3 # SQLite plugin for Flutter
+  path_provider: ^2.0.2
+  equatable: ^2.0.5 # For value equality comparison
+  flex_color_scheme: ^7.2.0 # For flexible color scheme management
+  flutter:
+    sdk: flutter # Flutter framework
+  flutter_riverpod: ^2.3.6 # State management solution
+  font_awesome_flutter: ^10.5.0 # Font Awesome icons
+  gap: ^3.0.1 # For spacing between widgets
+  go_router: ^10.0.0 # Routing library
+  google_fonts: ^5.1.0 # Google Fonts integration
+  intl: ^0.18.1 # Internationalization and date formatting
+  path: ^1.8.3 # Path manipulation utilities
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # Testing framework
+  flutter_lints: ^4.0.0 # Linter rules for Flutter projects
+
+flutter:
+  uses-material-design: true # Enables Material Design
